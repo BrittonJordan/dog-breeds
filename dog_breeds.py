@@ -54,11 +54,4 @@ if __name__ == '__main__':
         except Exception as e:
             print(f"Something went wrong with {breed}: {e}")
 
-    
-    # category,_,probs = learn.predict(PILImage.create('/Users/brittonjordan/Documents/personal-repos/dog-breeds/Newfoundland1.jpeg'))
-    # print(f"This is a: {category}.")
-    # print(f"Probability it's a {category}: {probs[0]:.4f}")
-
-    # category,_,probs = learn.predict(PILImage.create('/Users/brittonjordan/Documents/personal-repos/dog-breeds/chihuahua.jpeg'))
-    # print(f"This is a: {category}.")
-    # print(f"Probability it's a {category}: {probs[0]:.4f}")
+   
